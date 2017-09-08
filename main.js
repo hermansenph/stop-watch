@@ -2,13 +2,12 @@
 var $seconds = document.querySelector('#seconds')
 var $start = document.querySelector('#start')
 
-function secondsperseconds() {
+function secondsPerSeconds() {
   setInterval(seconds, 1000)
 }
 
 function seconds() {
-  console.log($seconds.textContent)
   $seconds.textContent++
 }
 
-$start.addEventListener('click', secondsperseconds)
+$start.addEventListener('click', secondsPerSeconds)
