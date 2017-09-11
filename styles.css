@@ -30,4 +30,17 @@
   border: 0.2vw solid Black;
   padding: 1vw;
   width: 7vw;
+  text-align: center;
+}
+
+.limit {
+  display: inline-block;
+  font-size: 10vw;
+  font-family: monospace;
+  margin-top: 15vw;
+  margin-bottom: 0;
+}
+
+.alert {
+  background-color: red;
 }
