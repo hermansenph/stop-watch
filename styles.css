@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-#start {
+.buttons {
   font-size: 2vw;
   font-family: monospace;
   border-radius: 1vw;
